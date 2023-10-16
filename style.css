@@ -1,0 +1,115 @@
+* {
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+fieldset {
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 2px 2px 15px rgba(2, 0, 148, 0.226);
+    margin: 20px;
+    margin-top: 0px;
+}
+
+legend {
+    color: rgb(0, 0, 66);
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+body {
+    background-color: white;
+}
+
+main {
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+}
+
+h1 {
+    color: rgb(0, 0, 66);
+    text-align: center;
+    font-size: 50px;
+    text-shadow: 3px 3px 5px rgb(255, 255, 255);
+    margin: 0px;
+}
+
+.hobbies {
+    margin-top: 0px;
+}
+
+.bc-amarelo {
+    background-color: rgba(255, 255, 0, 0.315);
+}
+
+.bc-azul {
+    background-color: rgba(0, 162, 255, 0.315);
+}
+
+.bc-vermelho {
+    background-color: rgba(255, 0, 0, 0.315);
+}
+
+.bc-laranja {
+    background-color: rgba(255, 166, 0, 0.315);
+}
+
+.bc-verde {
+    background-color: rgba(0, 128, 0, 0.315);
+}
+
+.bc-preto {
+    background-color: rgba(0, 0, 0, 0.822);
+    color: white;
+    font-weight: bold;
+}
+
+.enviar {
+    border-radius: 5px;
+    background-color: rgb(42, 40, 153);
+    width: 150px;
+    font-weight: bold;
+    color: white;
+    border: 1px solid rgba(2, 0, 148, 0.281);
+}
+
+.limpar {
+    border-radius: 5px;
+    background-color: rgb(42, 40, 153);
+    width: 150px;
+    color: white;
+    margin-left: 15px;
+    font-weight: bold;
+    border: 1px solid rgba(2, 0, 148, 0.281);
+}
+
+.enviar:hover {
+    background-color: rgba(8, 209, 8, 0.918);
+    transform: scale(1.1);
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.limpar:hover {
+    background-color: rgba(255, 60, 0, 0.932);
+    transform: scale(1.1);
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.text {
+    background-color: #cccccc31;
+    border: 1px solid rgba(2, 0, 148, 0.281);
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(2, 0, 148, 0.158);
+}
+
+.container {
+    text-align: center;
+}
+
+.cores {
+    margin-top: 20px;
+}

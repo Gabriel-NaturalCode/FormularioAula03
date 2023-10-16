@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Criando Formulários</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Formulário Aula 03</h1>
+
+<main>
+    <form method="get" action="">
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+        <div>
+            <label for="idnome">Nome:</label>
+            <input class="text" type="text" name="nome" id="idnome" required pattern=".*\s+.*" placeholder="ex.: Nome Sobrenome">
+        </div>
+        <div>
+            <label for="idade">Idade:</label>
+            <input class="text" type="number" name="idade" id="idade" min="18" placeholder="acima de 18">
+        </div>
+        <div>
+            <label for="fone">Telefone</label>
+            <input class="text" type="text" name="fone" id="fone" required pattern="\(\d{2}\) [9]\d{4}-\d{4}" placeholder="Ex: (99) 99999-9999">
+        </div>
+
+        <div>
+            <label for="genero">Gênero</label>
+            <input class="text" type="radio" name="genero" id="masc" value="Masculino" checked> Masculino
+            <input class="text" type="radio" name="genero" id="fem" value="Feminino"> Feminino
+        </div>
+
+        <div>
+            <label for="data">Data de nascimento</label>
+            <input class="text" type="date" name="data" id="data" min="1900-01-01" max="2005-01-01" required>
+        </div>
+        </fieldset>
+        <fieldset>
+            <legend>Agende sua visita</legend>
+        
+            <label for="hora">Horário de atendimento</label>
+            <input class="text" type="time" name="hora" id="hora" required min="07:00" max="17:00">
+        </div>
+        </fieldset>
+        <fieldset>
+            <legend>Sobre você</legend>
+        <div>
+            <p class="hobbies">Lista de hobbies</p>
+            
+            <input type="checkbox" name="Bike" id="Bike">
+            <label for="Bike">Bike</label>
+
+            <input type="checkbox" name="Skate" id="Skate">
+            <label for="Natação">Natação</label>
+
+            <input type="checkbox" name="Pintura" id="Pintura">
+            <label for="Pintura">Pintura</label>
+
+            <input type="checkbox" name="Trilha" id="Trilha">
+            <label for="Trilha">Trilha</label>
+            
+            <input type="checkbox" name="Culinária" id="Culinária">
+            <label for="Culinária">Culinária</label>
+            
+            <input type="checkbox" name="Corrida" id="Corrida">
+            <label for="Corrida">Corrida</label>
+            
+            <input type="checkbox" name="Codar" id="Codar">
+            <label for="Codar">Codar</label>
+
+            <input type="checkbox" name="Outro" id="Outro">
+            <label for="Outro">Outro:</label>
+            <input type="text" name="Outro" id="Outro" class="text" placeholder="digite aqui    ">
+        </div>
+
+        <div class="cores">
+            <label for="cores">Cor preferida</label>
+            <select name="cores" id="cores">
+                <option value="escolha" disabled selected>Escolha uma cor</option>
+                <option value="vermelho" class="bc-vermelho">Vermelho</option>
+                <option value="azul" class="bc-azul">Azul</option>
+                <option value="amarelo" class="bc-amarelo">Amarelo</option>
+                <option value="verde" class="bc-verde">Verde</option>
+                <option value="laranja" class="bc-laranja">Laranja</option>
+                <option value="branco">Branco</option>
+                <option value="preto" class="bc-preto">Preto</option>
+            </select>
+        </div>
+        </fieldset>
+        <div class="container">
+            <input type="submit" value="Enviar" class="enviar">
+            <input type="reset" value="Limpar" class="limpar">
+        </div>
+    </form>
+</main>
+</body>
+</html>
