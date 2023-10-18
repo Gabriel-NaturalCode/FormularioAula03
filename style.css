@@ -73,6 +73,7 @@ h1 {
     font-weight: bold;
     color: white;
     border: 1px solid rgba(2, 0, 148, 0.281);
+    cursor: pointer;
 }
 
 .limpar {
@@ -83,6 +84,7 @@ h1 {
     margin-left: 15px;
     font-weight: bold;
     border: 1px solid rgba(2, 0, 148, 0.281);
+    cursor: pointer;
 }
 
 .enviar:hover {
